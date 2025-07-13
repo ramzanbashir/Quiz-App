@@ -1,0 +1,72 @@
+/* #quizBox {
+  display: none;
+}
+
+.bg-gradient {
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+}
+
+.option-label {
+  display: block;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.option-label:hover {
+  background-color: #f0f8ff;
+}
+
+input[type="radio"] {
+  accent-color: #007bff; 
+  margin-right: 10px;
+} */
+
+body {
+  background: #f6f9fc;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.quiz-card {
+  display: none;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.option-label {
+  display: block;
+  padding: 12px 15px;
+  border-radius: 12px;
+  background: #f9fafe;
+  border: 1px solid #dfe7f1;
+  margin-bottom: 12px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.03);
+}
+
+input[type="radio"] {
+  accent-color: #007bff;
+  margin-right: 10px;
+}
+
+.bg-green-gradient {
+  background: linear-gradient(to right, #a8edea, #61c9a8);
+  box-shadow: 0 0 10px rgba(97, 201, 168, 0.3);
+}
+.pink{
+  color:rgba(17, 240, 136, 0.877);
+}
+#progressBar {
+  transition: width 0.3s ease-in-out;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.3);
+}
